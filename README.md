@@ -65,7 +65,7 @@ To train the model on a single node with 8 GPUs:
 
 ```bash
 # Usage: bash tools/dist.sh train <CONFIG_PATH> <GPUS>
-bash tools/dist.sh train projects/salma/configs/sa2va_1b_exp2.py 8
+bash tools/dist.sh train projects/salma/configs/SALMA-1B.py 8
 ```
 
 ### Evaluation
@@ -74,7 +74,7 @@ To evaluate the model (e.g., on Ref-DAVIS17):
 
 ```bash
 # Usage: bash tools/dist.sh test <CONFIG_PATH> <GPUS> --checkpoint <CHECKPOINT_PATH>
-bash tools/dist.sh test projects/salma/configs/eval_davis.sh 8 --checkpoint work_dirs/sa2va_1b_exp2/iter_40000.pth
+bash tools/dist.sh test projects/salma/configs/eval_davis.sh 8 --checkpoint SALMA-1B
 ```
 *Note: Check `projects/salma/evaluation/` for specific evaluation scripts.*
 
