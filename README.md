@@ -76,6 +76,25 @@ bash tools/dist.sh test projects/salma/configs/eval_davis.sh 8 --checkpoint work
 ```
 *Note: Check `projects/salma/evaluation/` for specific evaluation scripts.*
 
+### Gradio Demo
+
+We provide a specialized Gradio demo for interacting with the model.
+
+```bash
+# Launch the unified demo
+python projects/salma/gradio/app_unified.py --hf_path <path_to_hf_model> --device cuda:0
+```
+
+**Supported Features:**
+*   **Image Captioning / VQA**: Describe images or answer questions.
+*   **Segment by Text**: Segment objects based on text queries.
+*   **Multi-turn Chat**: Engage in conversation with context awareness.
+
+**Tips:**
+*   The demo automatically handles the `<image>` token for the first turn.
+*   Segmentation masks are parsed and overlaid on the image/video.
+*   Use "Clear" to reset the conversation context.
+
 ## Model Zoo
 
 | Model | Config | Description |
