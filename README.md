@@ -101,7 +101,7 @@ python projects/salma/gradio/app_unified.py --hf_path <path_to_hf_model> --devic
 
 | Model | Config | Description |
 | :--- | :--- | :--- |
-| **SALMA-1B** | `projects/salma/configs/sa2va_1b_exp2.py` | Base model with InternVL2.5-1B and SAM-2 Hiera-L. |
+| **SALMA-1B** | `projects/salma/configs/SALMA-1B.py` | Base model with InternVL2.5-1B and SAM-2 Hiera-L. |
 
 ## Citation
 
