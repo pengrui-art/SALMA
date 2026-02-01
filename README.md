@@ -82,6 +82,18 @@ bash tools/dist.sh test projects/salma/configs/eval_davis.sh 8 --checkpoint work
 | :--- | :--- | :--- |
 | **SALMA-1B** | `projects/salma/configs/sa2va_1b_exp2.py` | Base model with InternVL2.5-1B and SAM-2 Hiera-L. |
 
+## Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@article{salma2026,
+  title={SALMA: Mask-Guided Structure-Aware Alignment for Referring Segmentation},
+  author={Salma Team},
+  journal={arXiv preprint},
+  year={2026}
+}
+```
 
 ## Acknowledgement
 
