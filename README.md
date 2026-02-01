@@ -4,6 +4,8 @@
 
 **SALMA** (Structure-Aware Language-Mask Alignment) is a unified Multimodal Large Language Model (MLLM) framework designed to bridge the "semantic-structural gap" in referring segmentation.
 
+![Teaser](images/image.png)
+
 Unified MLLMs often suffer from **attention drift**—erroneously attending to salient distractors rather than the queried target due to a lack of explicit spatial constraints. SALMA addresses this by introducing:
 *   **Mask-Biased Attention (MBA)**: A mechanism that repurposes the frozen SAM-2 decoder to generate class-agnostic structural priors, which act as a dense soft gate to modulate the MLLM's cross-modal attention.
 *   **Fine-grained Alignment**: A dual-constraint strategy using **Text-Mask Contrastive (TMC)** loss and **Boundary Consistency** loss to enforce both semantic fidelity and structural precision.
