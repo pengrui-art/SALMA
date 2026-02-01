@@ -1,0 +1,123 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{qwen}
+Bai, J., et~al.: {Qwen-VL}: A versatile vision-language model for understanding, localization, text reading, and beyond. arXiv preprint arXiv:2308.12966  (2023)
+
+\bibitem{internvl25new}
+Chen, Z., et~al.: Expanding performance boundaries of open-source multimodal models with model, data, and test-time scaling. arXiv preprint arXiv:2412.05271  (2024)
+
+\bibitem{internvl}
+Chen, Z., et~al.: {InternVL}: Scaling up vision foundation models and aligning for generic visual-linguistic tasks. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2024)
+
+\bibitem{maskgrounding}
+Chng, Y.X., Zheng, H., Han, Y., Liu, X., Kankanhalli, M.: Mask grounding for referring image segmentation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2024)
+
+\bibitem{mevis}
+Ding, H., Liu, C., He, S., Jiang, X., Torr, P.H., Bai, S.: {MeViS}: A large-scale benchmark for video segmentation with motion expressions. In: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) (2023)
+
+\bibitem{mme}
+Fu, C., et~al.: {MME}: A comprehensive evaluation benchmark for multimodal large language models. arXiv preprint arXiv:2306.13394  (2023)
+
+\bibitem{chatunivi24}
+Jin, P., Takanobu, R., Zhang, C., Cao, X., Yuan, L.: {Chat-UniVi}: Unified visual representation empowers large language models with image and video understanding. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2024)
+
+\bibitem{videolisa}
+Jin, S., et~al.: One token to seg them all: Language instructed reasoning segmentation in videos. arXiv preprint arXiv:2409.19603  (2024)
+
+\bibitem{refcoco}
+Kazemzadeh, S., Ordonez, V., Matten, M., Berg, T.L.: Referitgame: Referring to objects in photographs of natural scenes. In: EMNLP (2014)
+
+\bibitem{lisa}
+Lai, X., Tian, Z., Chen, Y., Li, Y., Yuan, Y., Liu, S., Jia, J.: {LISA}: Reasoning segmentation via large language model. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2024)
+
+\bibitem{seedbench}
+Li, B., et~al.: {SEED-Bench}: Benchmarking multimodal large language models. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2024)
+
+\bibitem{lira}
+Li, X., et~al.: {LIRA}: Inferring segmentation in large multi-modal models with local interleaved region assistance. arXiv preprint arXiv:2501.00000  (2025)
+
+\bibitem{llamavid}
+Li, Y., Wang, C., Wu, J.: Llama-vid: An image-to-video token for video understanding. arXiv preprint arXiv:2311.17043  (2023)
+
+\bibitem{videollava}
+Lin, B., et~al.: {Video-LLaVA}: Learning united visual representation by alignment before projection. arXiv preprint arXiv:2311.10122  (2023)
+
+\bibitem{llava15}
+Liu, H., et~al.: Improved baselines with visual instruction tuning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2024)
+
+\bibitem{llavanext}
+Liu, H., et~al.: {LLaVA-NeXT}: Improved reasoning, {OCR}, and world knowledge. LLaVA Blog  (2024)
+
+\bibitem{mmbench}
+Liu, Y., et~al.: {MMBench}: Is your multi-modal model an all-around player? In: Proceedings of the European Conference on Computer Vision (ECCV) (2024)
+
+\bibitem{refcocog}
+Mao, J., Huang, J., Toshev, A., Camburu, O., Yuille, A.L., Murphy, K.: Generation and comprehension of unambiguous object descriptions. In: CVPR (2016)
+
+\bibitem{gpt4}
+{OpenAI}: {GPT}-4 technical report. arXiv preprint arXiv:2303.08774  (2023)
+
+\bibitem{davis2017}
+Pont-Tuset, J., Perazzi, F., Caelles, S., Arbel{\'a}ez, P., Sorkine-Hornung, A., Van~Gool, L.: The 2017 davis challenge on video object segmentation. arXiv preprint arXiv:1704.00675  (2017)
+
+\bibitem{glamm}
+Rasheed, H., Maaz, M., Shaji, S., Shaker, A., Khan, S., Fahad, S., Khan, F.S.: {GLaMM}: Pixel grounding large multimodal model. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2024)
+
+\bibitem{sam2}
+Ravi, N., Gabeur, V., Hu, Y.T., Hu, R., Ryali, C., Ma, T., Khedr, H., Rädle, R., Rolland, C., Gustafson, L., et~al.: {SAM} 2: Segment anything in images and videos. arXiv preprint arXiv:2408.00714  (2024)
+
+\bibitem{pixellm}
+Ren, Z., Ji, Z., Lan, G., Wang, Z., Cui, Y., Zhai, W., Feng, J.: {PixelLM}: Pixel reasoning with large multimodal models. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2024)
+
+\bibitem{seggpt}
+Wang, X., et~al.: {SegGPT}: Segmenting everything in context. In: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) (2023)
+
+\bibitem{cris}
+Wang, Z., Lu, Y., Li, Q., Tao, X., Guo, Y., Gong, M., Liu, T.: {CRIS}: {CLIP}-driven referring image segmentation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2022)
+
+\bibitem{lasagna}
+Wei, C., Tan, H., Zhong, Y., Yang, Y., Ma, L.: {LaSagnA}: Language-based segmentation assistant for complex queries. arXiv preprint arXiv:2404.02646  (2024)
+
+\bibitem{referformer}
+Wu, J., Jiang, Y., Sun, P., Yuan, Z., Tan, P.: {ReferFormer}: A simple baseline for referring image segmentation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2022)
+
+\bibitem{lisaglee}
+Wu, J., Jiang, Y., Liu, Q., Yuan, Z., Bai, X., Bai, S.: {GLEE}: General object foundation model for images and videos at scale. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2024)
+
+\bibitem{gsva}
+Xia, Z., Han, X., Xue, Y., Zhang, W.: {GSVA}: Generalized segmentation via multimodal large language models. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2024)
+
+\bibitem{ytvos}
+Xu, N., Yang, L., Fan, Y., Yang, D., Yue, Y., Liang, Y., PRICE, F., Cohen, S., Huang, T.: Youtube-vos: A large-scale video object segmentation benchmark. In: ECCV (2018)
+
+\bibitem{visa}
+Yan, C., Wang, H., Yan, S., Jiang, X., Hu, Y., Kang, G., Xie, W., Gavves, E.: {VISA}: Reasoning video object segmentation via large language models. arXiv preprint arXiv:2407.11325  (2024)
+
+\bibitem{lavt}
+Yang, Z., Wang, J., Tang, Y., Chen, K., Zhao, H., Torr, P.H.: {LAVT}: Language-aware vision transformer for referring image segmentation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2022)
+
+\bibitem{osprey24}
+Yao, Y., Gisiger, T., Peng, Y., et~al.: {Osprey}: Pixel understanding with visual instruction tuning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2024)
+
+\bibitem{mplugowl3}
+Ye, J., et~al.: mplug-owl3: Towards long image-sequence understanding in multi-modal large language models. arXiv preprint arXiv:2408.04840  (2024)
+
+\bibitem{sa2va}
+Yuan, H., Li, X., Zhang, T., Huang, Z., Xu, S., Ji, S., Tong, Y., Qi, L., Feng, J., Yang, M.H.: {Sa2VA}: Marrying {SAM2} with {LLaVA} for dense grounded understanding of images and videos. arXiv preprint arXiv:2501.04001  (2025)
+
+\bibitem{llavag}
+Zhang, H., Li, H., Li, F., Ren, T., Zou, X., Liu, S., Huang, S., Gao, J., Zhang, L., Li, C., Yang, J.: {LLaVA-Grounding}: Grounded visual chat with large multimodal models. arXiv preprint arXiv:2312.02949  (2023)
+
+\bibitem{omgllava}
+Zhang, T., Li, X., Yuan, H., Wan, S., Yang, M.H.: {OMG-LLaVA}: Bridging image-level, object-level, pixel-level reasoning and understanding. arXiv preprint arXiv:2406.19389  (2024)
+
+\bibitem{psalm}
+Zhang, T., Li, X., Yuan, H., Wan, S., Yang, M.H.: {PSALM}: Pixelwise segmentation with large multi-modal model. arXiv preprint arXiv:2403.14598  (2024)
+
+\bibitem{seem}
+Zou, X., et~al.: {SEEM}: Segment everything everywhere all at once. In: Advances in Neural Information Processing Systems (NeurIPS) (2023)
+
+\end{thebibliography}
