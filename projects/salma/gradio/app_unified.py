@@ -33,11 +33,11 @@ def make_description(title: str) -> str:
 
 支持功能:
 - 图像描述 / VQA (VQA/Caption)
-- 基于文本的图像目标分�?(Segment by Text)
+- 基于文本的图像目标分�?(Segment by Text)
 - 多轮对话 (Chat) 与可选的分割输出
 
 提示:
-1. 如果是第一次对话或任务需要视觉信�? 会自动在输入前添�?`<image>` 标记�?2. 分割任务会尝试解析答案中�?`prediction_masks` 并叠加显示�?3. 多轮对话模式会保持上下文 (Chat)。切换任务或点击 "清空会话" 可重置�?"""
+1. 如果是第一次对话或任务需要视觉信�? 会自动在输入前添�?`<image>` 标记�?2. 分割任务会尝试解析答案中�?`prediction_masks` 并叠加显示�?3. 多轮对话模式会保持上下文 (Chat)。切换任务或点击 "清空会话" 可重置�?"""
 
 
 TORCH_DTYPE_MAP = dict(
@@ -186,7 +186,7 @@ def _safe_launch(demo: gr.Blocks, share: bool, server_port: int | None = None, s
         # Bind to localhost explicitly; avoid DNS lookups
         demo.launch(share=share, server_name=server_name, server_port=server_port)
     except Exception as e:
-        print(f"[WARN] Gradio launch failed: {e}. Retrying without share/analytics�?)
+        print(f"[WARN] Gradio launch failed: {e}. Retrying without share/analytics")
         _disable_external_calls_for_offline()
         demo.launch(share=False, server_name=server_name, server_port=server_port)
 
@@ -279,7 +279,7 @@ def infer_handler(
                     None,
                     None,
                     chatbot,
-                    process_markdown("不支持的文件类型，请上传图像或视频�?, []),
+                    process_markdown("不支持的文件类型，请上传图像或视频", []),
                     state,
                 )
         else:
@@ -287,7 +287,7 @@ def infer_handler(
                 None,
                 None,
                 chatbot,
-                process_markdown("无效的文件，请重新上传图像或视频�?, []),
+                process_markdown("无效的文件，请重新上传图像或视频", []),
                 state,
             )
     else:
@@ -297,7 +297,7 @@ def infer_handler(
                 None,
                 None,
                 chatbot,
-                process_markdown("请先上传图像或视频�?, []),
+                process_markdown("请先上传图像或视频", []),
                 state,
             )
 
@@ -308,7 +308,7 @@ def infer_handler(
             (image if image is not None else None),
             (None if image is not None else None),
             chatbot,
-            process_markdown("请输入指令�?, []),
+            process_markdown("请输入指令", []),
             state,
         )
 
@@ -321,10 +321,10 @@ def infer_handler(
             # Normalize gradio video input (can be str path or dict with 'name'/'path')
             vp = video_path
             if not isinstance(vp, str) or not vp:
-                raise ValueError("无效的视频路�?)
+                raise ValueError("无效的视频路")
             video_frames = preprocess_video(vp, text)
         except Exception as e:
-            err = f"视频预处理失�? {e}"
+            err = f"视频预处理失 {e}"
             print(err)
             return None, None, chatbot, process_markdown(err, []), state
 
@@ -433,12 +433,12 @@ def build_interface(title: str):
         with gr.Row():
             with gr.Column(scale=1):
                 media_file = gr.File(
-                    label="上传图像或视�?(Image or Video)", file_count="single"
+                    label="上传图像或视�?(Image or Video)", file_count="single"
                 )
                 user_text = gr.Textbox(
                     lines=2,
                     label="输入 / 指令 (Prompt)",
-                    placeholder="例如�?Describe the image' 或�?'Please segment the cat'",
+                    placeholder="例如�?Describe the image' 或�?'Please segment the cat'",
                 )
                 run_btn = gr.Button("提交 / Submit", variant="primary")
                 clear_btn = gr.Button("清空会话 / Clear")
