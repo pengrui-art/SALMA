@@ -24,8 +24,9 @@ SALMA achieves state-of-the-art performance on video segmentation benchmarks (Re
 | :--- | :--- | :--- | :--- |
 | **Ref-DAVIS17** | J&F | 68.5 | **71.9 (+3.4)** |
 | **Ref-YouTube-VOS** | J&F | 65.3 | **67.0 (+1.7)** |
+| **RefCOCO (Val)** | cIoU | 79.6 | **80.4** |
+| **RefCOCO+ (Val)** | cIoU | 73.6 | **74.8** |
 | **RefCOCOg (Val)** | cIoU | 77.8 | **78.0** |
-| **RefCOCOg (Test)** | cIoU | 77.5 | **78.4** |
 | **MeVis** | J&F | 41.7 | **46.0** |
 
 ## Installation
